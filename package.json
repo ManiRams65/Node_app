@@ -1,0 +1,27 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "Brush Up Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManiRams65/Node_app.git"
+  },
+  "author": "Manikandan V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManiRams65/Node_app/issues"
+  },
+  "homepage": "https://github.com/ManiRams65/Node_app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
